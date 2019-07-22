@@ -12,7 +12,7 @@ scanf("%d",&arr[i][j]);
 
 for(int i=0;i<x/2;i++)
 {
-for(int j=0;j<y-i-1;j++)
+for(int j=i;j<y-i-1;j++)
 {
 int temp=arr[i][j];
 arr[i][j]=arr[x-1-j][i];
